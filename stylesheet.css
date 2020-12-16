@@ -1,0 +1,131 @@
+*{
+  box-sizing: border-box;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font:"Lucida Grande"
+}
+
+a{
+  text-decoration: none;
+}
+
+.container{
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  
+}
+
+header{
+  width:100%;
+  border: 1px solid black;
+  height:65px;
+  top: 0;
+  background-color: rgba(34, 49, 52, 0.9);
+
+}
+
+.header-left{
+
+  width:110px;
+  float: left;
+  color: #fff;
+  padding-top: 10px;
+  margin-top: 4px;
+}
+
+.header-right{
+
+  float: right;
+  margin-right: -25px;
+
+}
+
+.header-right a{
+  display: inline-block;
+  padding: 0px 25px;
+  border:1px solid white;
+  line-height: 30px;
+  margin-top: 14px;
+  margin-right: 12px;
+  color: #fff;
+  float: left;
+}
+
+.header-right a:hover{
+  background-color: rgba(34, 49, 52, 0.9);
+}
+
+.page-body{
+  padding: 180px 0 150px 0;
+  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-size: cover;
+  color: #fff;
+}
+
+.page-body h1{
+  font-size: 45px;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.page-body h3{
+  font-size: 30px;
+  text-align: center;
+  opacity: 0.8;
+
+}
+
+.button-social{
+  text-align: center;
+  padding: 20px 0;
+  opacity: 0.8;
+  padding-bottom: 160px;
+  background-color: #6AFB92;
+}
+
+.facebook{
+  border: 1px solid none;
+  border-radius: 4px;
+  padding: 5px 7px;
+  background-color: #3b5998;
+  color: white;
+
+}
+
+.instagram{
+  border: 1px solid none;
+  border-radius: 4px;
+  margin-left: 10px;
+  padding: 5px 7px;
+  background-color: #C24641;
+  color: white;
+}
+
+.button-social a:hover{
+  opacity: 0.9;
+}
+
+footer{
+  background-color: rgba(34, 49, 52, 0.9);
+  height:37px;
+}
+
+.footer-left{
+  float: left;
+  margin-left: 5px;
+  margin-top: 3px;
+
+}
+
+.footer-right{
+  float:right;
+  margin-right: 7px;
+  margin-top: 6px;
+}
